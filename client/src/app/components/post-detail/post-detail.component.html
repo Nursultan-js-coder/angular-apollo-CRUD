@@ -1,0 +1,10 @@
+<div *ngIf="post" class="card" >
+  <h5 class="card-header">Details</h5>
+  <div class="card-body">
+    <h5 class="card-title"><input  [(ngModel)]="post.title" class="form-control"/></h5>
+    <p class="card-text">{{post.content}}</p>
+    <button  class="btn btn-primary" (click)="goBack()">Go back</button>
+
+  </div>
+</div>
+<p>this is post detail</p>

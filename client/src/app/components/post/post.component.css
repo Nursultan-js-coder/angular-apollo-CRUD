@@ -1,0 +1,12 @@
+.card{
+  width:100% !important;
+  margin-bottom: 30px;
+  margin-top:10px;
+}
+span:hover{
+  cursor: pointer;
+  transform: scale(1.4);
+}
+p.post-content{
+  display: inline;
+}

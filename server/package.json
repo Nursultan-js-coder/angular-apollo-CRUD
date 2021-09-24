@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.2.0",
+    "apollo-server": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.5.3",
+    "graphql-subscriptions": "^1.2.1",
+    "graphql-tag": "^2.12.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.6",
+    "subscriptions-transport-ws": "^0.9.19"
+  }
+}

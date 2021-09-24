@@ -1,0 +1,5 @@
+{
+  "port": 9000,
+  "mongoDbURI": "mongodb+srv://nurs:2000nura@cluster0.vr8io.mongodb.net/TimelyLab?retryWrites=true&w=majority",
+  "jwtSecret": "sl_myJwtSecret"
+}

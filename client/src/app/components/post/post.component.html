@@ -1,0 +1,8 @@
+<div *ngIf ="post" class="card" style="width: 18rem;">
+  <div class="card-header">
+   <a href="posts/{{post.id}}}"> <b [ngStyle]="{'cursor':'pointer'}" (click)="postClickHandler()">{{post.title}}</b></a>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><p class="post-content">{{post.content}}</p><span [ngStyle]="{'float':'right','color':'red','font-weight':'600'}" (click)="clickHandler()" >x</span></li>
+  </ul>
+</div>

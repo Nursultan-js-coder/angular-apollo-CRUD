@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+margin:0;
+}
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+app-root{
+  background-color: #fff;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+}
